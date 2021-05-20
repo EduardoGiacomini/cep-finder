@@ -4,7 +4,7 @@
   "description": "REST API para a aplicação Cep Finder",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
