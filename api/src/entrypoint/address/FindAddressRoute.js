@@ -14,7 +14,7 @@ class FindAddressRoute {
 
     getRoute () {
         const route = express.Router()
-        route.get('/address/:cep', (request, response, next) => this.controller(request, response, next))
+        route.get('/addresses/:cep', (request, response, next) => this.controller(request, response, next))
         return route
     }
 }
