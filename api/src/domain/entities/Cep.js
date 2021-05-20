@@ -1,10 +1,17 @@
+const { CepUtil } = require('../utils')
+
 class Cep {
     constructor(cep) {
-        this.cep = cep
+        this.cep = CepUtil.removeSpecialCharacters(cep)
     }
 
     isValid () {
-        const regexCep = /^[0-9]{8}$/
-        return regexCep.test(this.cep)
+        return CepUtil.isValid(this.cep)
+    }
+
+    getCep () {
+        return this.cep
     }
 }
+
+module.exports = Cep
