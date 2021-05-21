@@ -11,6 +11,7 @@ Para a criação desse projeto, foram utilizadas as seguintes tecnologias:
 
 # Snapshot
 Visualize um snapshot do projeto:
+
 ![Snapshot](./docs/snapshot.png)
 
 ## Como executar o projeto
