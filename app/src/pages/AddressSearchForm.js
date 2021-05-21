@@ -53,7 +53,7 @@ export default function AddressSearchForm({isFinding, searchAddress}) {
                     error={cepError}
                     onChange={event => setCep(event.currentTarget.value)}/>
             </FormControl>
-            <Button className="full-width" type="submit" isLoading={isFinding}>
+            <Button className="full-width" type="submit" disabled={isFinding} isLoading={isFinding}>
                 Pesquisar
             </Button>
         </form>
