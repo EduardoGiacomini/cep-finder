@@ -6,20 +6,18 @@ Para a criação desse projeto, foram utilizadas as seguintes tecnologias:
 - NodeJS;
 - Docker;
 - MongoDB;
-- ReactJS.
+- ReactJS;
+- BaseWeb.
 
 # Snapshot
-Confira um snapshot do projeto:
-
+Visualize um snapshot do projeto:
 ![Snapshot](./docs/snapshot.png)
-
-Para os componentes de UI, optou-se pela utilização do [BaseWeb](https://baseweb.design/) .
 
 ## Como executar o projeto
 Instruções de instalação e execução do projeto.
 
 ### Requisitos
-Será necessário que você possua instalado em sua máquina as seguintes ferramentas:
+Será necessário que você tenha instalado em sua máquina as seguintes ferramentas:
 
 - NodeJS;
 - NPM;
@@ -84,4 +82,4 @@ Pronto! Nesse momento, provavelmente você já estará conseguindo utilizar o pr
 O `front-end` estará disponível no seguinte endpoint: http://localhost:3000.
 
 ### Dúvidas ou Problemas
-Caso encontre dificuldade para executar o projeto, por favor, entre em contato comigo por e-mail: carloseduardo.diasgiacomini@gmail.com.
+Caso encontre dificuldades para executar o projeto, por favor, entre em contato comigo por e-mail: carloseduardo.diasgiacomini@gmail.com.
