@@ -1,4 +1,5 @@
 const express = require('express')
+const cors = require('cors')
 
 const { Database, Router, Logger } = require('./configuration')
 const factories = require('./factories')
@@ -24,6 +25,7 @@ class Application {
 
   applyDefaultMiddlewares () {
     this.app.use(express.json())
+    this.app.use(cors())
   }
 
   async connectDatabase () {
