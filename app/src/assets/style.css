@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     max-width: 600px;
     margin: 0 auto;
@@ -6,4 +14,14 @@
 
 .full-width {
     width: 100%;
+}
+
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.margin-top {
+    margin-top: 40px;
 }
